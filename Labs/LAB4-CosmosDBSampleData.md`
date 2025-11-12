@@ -1,0 +1,47 @@
+### 🧩 LAB 4 — **Create Cosmos DB with Sample Data**
+**File name:** `LAB4-CosmosDBSampleData.md`
+
+```markdown
+# LAB 4 – Create Cosmos DB with Sample Data (AZ-305)
+
+## 🎯 Objective
+Create a Cosmos DB account, add a database and container, and insert/query JSON data.
+
+---
+
+## ⚙️ Steps
+
+### Step 1: Create Cosmos DB Account
+1. Azure Portal → **Create a resource → Azure Cosmos DB**
+2. Choose **Core (SQL)** API → **Create**
+3. Fill details:
+   - **Resource Group:** `rg-az305-lab4`
+   - **Account Name:** `az305cosmoslab`
+   - **Region:** Central India
+   - **Capacity Mode:** *Serverless*
+4. Click **Review + Create → Create**
+
+---
+
+### Step 2: Add Database & Container
+1. Open the account → **Data Explorer**
+2. Click **New Container**
+   - Database ID: `EmployeeDB`
+   - Container ID: `Employee`
+   - Partition Key: `/department`
+   - Throughput: Default
+3. Click **OK**
+
+---
+
+### Step 3: Insert Data
+In Data Explorer → Container → **Items → New Item**  
+Paste and save:
+
+```json
+{
+  "id": "E101",
+  "name": "Asha Patel",
+  "department": "Sales",
+  "salary": 45000
+}
