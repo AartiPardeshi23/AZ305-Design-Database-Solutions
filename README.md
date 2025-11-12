@@ -22,12 +22,12 @@ After completing these labs, you will be able to:
 
 ## 🧪 Labs Included
 
-| Lab No. | Title | Description | Link |
+| Lab No. | Title | Description |
 |:--:|:------------------------------------|:---------------------------------------------|:--------------------------------------|
-| 1 | **Azure SQL Database Overview** | Create and explore an Azure SQL Database | [LAB1-AzureSQLDatabaseOverview.md](./LAB1-AzureSQLDatabaseOverview.md) |
-| 2 | **Cosmos DB Introduction & Key Features** | Understand Cosmos DB and create your first account | [LAB2-CosmosDBIntroduction.md](./LAB2-CosmosDBIntroduction.md) |
-| 3 | **Provision Azure SQL Database & Configure Firewall** | Set up SQL DB, enable access, and run sample queries | [LAB3-SQLDatabaseFirewall.md](./LAB3-SQLDatabaseFirewall.md) |
-| 4 | **Create Cosmos DB with Sample Data** | Add and query JSON documents using Cosmos DB | [LAB4-CosmosDBSampleData.md](./LAB4-CosmosDBSampleData.md) |
+| 1 | **Azure SQL Database Overview** | Create and explore an Azure SQL Database  |
+| 2 | **Cosmos DB Introduction & Key Features** | Understand Cosmos DB and create your first account |
+| 3 | **Provision Azure SQL Database & Configure Firewall** | Set up SQL DB, enable access, and run sample queries |
+| 4 | **Create Cosmos DB with Sample Data** | Add and query JSON documents using Cosmos DB |
 
 ---
 
